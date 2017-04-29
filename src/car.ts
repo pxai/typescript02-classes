@@ -32,11 +32,8 @@ class Car {
         } else {
             this.tank = this.tank - consumption;
         }
-
             return consumption;
-        
     }
-
 }
 
 var oneCar : Car = new Car('0747BNG',0,'Eugene Krabs',40);
