@@ -5,10 +5,10 @@ class Person {
         this.name = name;
     }
     
-    greet () : string {
+    greet (): string {
         return 'Hello, my name is ' + this.name;
     }
 }
 
-var person : Person = new Person('Eugene');
+let person: Person = new Person('Eugene');
 console.log(person.greet());
